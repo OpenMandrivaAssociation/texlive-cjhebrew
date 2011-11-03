@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /language/hebrew/cjhebrew
+# catalog-date 2007-01-01 00:37:00 +0100
+# catalog-license lppl
+# catalog-version 0.1a
 Name:		texlive-cjhebrew
 Version:	0.1a
 Release:	1
@@ -56,6 +62,7 @@ TeX, so should be run using an "e-LaTeX".
 %{_texmfdistdir}/tex/latex/cjhebrew/cjhebrew.sty
 %doc %{_texmfdistdir}/doc/fonts/cjhebrew/cjhebtst.tex
 %doc %{_texmfdistdir}/doc/fonts/cjhebrew/manual.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -66,3 +73,5 @@ TeX, so should be run using an "e-LaTeX".
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
