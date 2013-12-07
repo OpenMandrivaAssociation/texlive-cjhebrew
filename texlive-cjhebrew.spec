@@ -6,7 +6,7 @@
 # catalog-version 0.1a
 Name:		texlive-cjhebrew
 Version:	0.1a
-Release:	5
+Release:	6
 Summary:	Typeset Hebrew with LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/hebrew/cjhebrew
