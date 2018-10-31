@@ -1,6 +1,6 @@
 Name:		texlive-cjhebrew
 Version:	0.2a
-Release:	1
+Release:	2
 Summary:	Typeset Hebrew with LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/hebrew/cjhebrew
