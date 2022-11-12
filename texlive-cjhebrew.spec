@@ -5,8 +5,8 @@ Summary:	Typeset Hebrew with LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/hebrew/cjhebrew
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cjhebrew.r43444.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cjhebrew.doc.r43444.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cjhebrew.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cjhebrew.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
