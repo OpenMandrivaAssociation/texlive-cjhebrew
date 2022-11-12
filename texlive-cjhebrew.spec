@@ -1,12 +1,12 @@
 Name:		texlive-cjhebrew
-Version:	0.2a
-Release:	2
+Version:	43444
+Release:	1
 Summary:	Typeset Hebrew with LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/hebrew/cjhebrew
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cjhebrew.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cjhebrew.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cjhebrew.r43444.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cjhebrew.doc.r43444.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -21,12 +21,12 @@ documents. The package makes use of the e-TeX extensions to
 TeX, so should be run using an "e-LaTeX".
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -41,7 +41,7 @@ TeX, so should be run using an "e-LaTeX".
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
