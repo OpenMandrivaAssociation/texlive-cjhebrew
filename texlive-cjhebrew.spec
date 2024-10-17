@@ -3,7 +3,7 @@ Version:	43444
 Release:	2
 Summary:	Typeset Hebrew with LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/language/hebrew/cjhebrew
+URL:		https://www.ctan.org/tex-archive/language/hebrew/cjhebrew
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cjhebrew.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cjhebrew.doc.r%{version}.tar.xz
